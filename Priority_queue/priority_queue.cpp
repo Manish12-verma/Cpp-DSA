@@ -8,6 +8,7 @@ void mySort(int arr[],int n){
         pq.pop();
     }
 }
+
 int main(){
 int arr[] ={12,5,8};
 mySort(arr,3);
