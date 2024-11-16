@@ -19,6 +19,8 @@ public:
       cout<<obj.num<<endl;
    }
 };
+
+
 int main() {
    ABC obj;
    XYZ obj2;

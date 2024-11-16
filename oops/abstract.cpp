@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-class Shape{   //abstarct class
+class Shape{   //abstract class
     public:
        virtual void draw()=0;   //pure virtual function;
   
@@ -14,7 +13,9 @@ class Circle: public Shape{
     void draw(){
         cout <<"Drawing a circle\n";
     }
+    
 };
+
 
 int main(){
   

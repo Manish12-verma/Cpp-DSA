@@ -17,7 +17,7 @@ class Student{
 
 int main(){
     
-    Student s1;
+    Student s1("Manish");
 
     return 0;
 }
